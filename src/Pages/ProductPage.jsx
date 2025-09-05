@@ -7,7 +7,7 @@ function ProductPage() {
   const [products, setProducts] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
-  const PathAPI = "https://66bed4f942533c4031442a3e.mockapi.io/products1";
+  const PathAPI = "https://68b80d09b71540504326e478.mockapi.io/product";
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -32,7 +32,7 @@ function ProductPage() {
 
   return (
     <>
-      <div className="flex items-center gap-2 mb-4">
+      <div className="flex items-center gap-2 mb-4 mt-20">
         <input
           type="text"
           placeholder="Search products..."
